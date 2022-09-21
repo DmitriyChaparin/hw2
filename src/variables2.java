@@ -44,6 +44,15 @@ public class variables2 {
         int brownTins = classesAtSchool * oneClassBrownTins;
         System.out.println("В школе, где " + classesAtSchool + " классов, нужно " + wightTins + " банок белой красски и " + brownTins+ " банок коричневой краски.");
 
+        System.out.println("Задача 6");
+        byte banana = 80;
+        short milk = 105;
+        byte iceCream = 100;
+        byte egg = 70;
+        double cocktail = banana * 5 + milk * 2 + iceCream * 2 + egg * 4;
+        System.out.println( "Вес спорт-завтрака " + cocktail / 1000 + " кг.");
+
+
     }
 
 }
